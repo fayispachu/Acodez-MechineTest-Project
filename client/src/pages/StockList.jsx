@@ -72,11 +72,12 @@ function StockList() {
   return (
     <>
       <div className="w-[100%]  bg-gray-50 flex flex-col ">
-        <div className="w-[100%] h-auto  bg-white p-6 rounded-xl shadow-md">
-          <div className="flex flex-row items-center  justify-start">
-            {" "} <Link to={"/"}>
-                  <img src={goback} alt="Go back" className="absolute  " />
-                </Link>
+        <div className="w-[100%] h-auto  flex items-start flex-col justify-start bg-white p-6 rounded-xl shadow-md">
+          <div className="flex flex-col items-start  justify-start">
+            {" "}
+            <Link to={"/"}>
+              <img src={goback} alt="Go back" className=" " />
+            </Link>
             <div className="flex flex-col gap-3">
               <h1 className=" text-xl">Filter</h1>{" "}
               <div className="flex flex-row gap-1">
@@ -154,7 +155,6 @@ function StockList() {
                     ))}
                   </select>
                 </label>
-               
               </div>
             </div>
           </div>
