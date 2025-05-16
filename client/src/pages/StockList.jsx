@@ -72,7 +72,7 @@ function StockList() {
   return (
     <>
       <div className="w-[100%]  bg-gray-50 flex flex-col ">
-        <div className="w-[100%] h-auto  flex items-start flex-col justify-start bg-white p-6 rounded-xl shadow-md">
+        <div className="w-[100%] h-auto  flex items-start flex-col justify-start bg-white px-6 rounded-xl shadow-md">
           <div className="flex flex-col items-start  justify-start">
             {" "}
             <Link to={"/"}>
